@@ -55,8 +55,6 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
-    transition: .2s ease;
-    transition-delay: .1s;
     
 }
 
@@ -105,10 +103,21 @@ p{
 }
 
 /* about style */
+#about .kolom{
+    width: 100%;
+}
+
 #about img{
     border-radius: 20px;
-    width: 100%;
+    width: 90%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px;
+}
+
+#about .kolom ul li{
+    display: block;
+    padding: 3px;
+    margin-left: 5px;
 }
 
 .tengah{
